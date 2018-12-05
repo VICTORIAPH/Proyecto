@@ -1,5 +1,5 @@
-e
-t
-ej
-s
-sp
+e   01  2   false   false   false   true    false    true
+t   30  1   true    true    false   true    false   true
+ej  40  1   true    true    false   true    true    true
+s   45  1   true    true    false   true    true    true
+sp  50  1   true    true    true    true    true    true
