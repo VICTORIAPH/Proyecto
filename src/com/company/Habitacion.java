@@ -13,10 +13,17 @@ public class Habitacion  {
    private boolean jacucy;
 
     Habitacion(Scanner leer){
-this.numero=leer.nextInt();
-this.nCamas=leer.nextInt();
-this.wifi=leer.hasNextBoolean();
-this.cable=leer
+        this.numero=leer.nextInt();
+        this.nCamas=leer.nextInt();
+        this.wifi=leer.hasNextBoolean();
+        this.cable=leer.hasNextBoolean();
+        this.jacucy=leer.hasNextBoolean();
+        this.regadera=leer.hasNextBoolean();
+        this.serHab=leer.hasNextBoolean();
+        this.wc=leer.hasNextBoolean();
+
+
+
     }
 
 

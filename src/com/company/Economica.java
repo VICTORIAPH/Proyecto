@@ -1,7 +1,10 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Economica extends Habitacion {
-    public Economica() {
+     Economica(Scanner leer) {
         super(leer);
+        this.
     }
 }
