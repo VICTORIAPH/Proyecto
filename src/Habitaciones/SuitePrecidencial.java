@@ -1,10 +1,10 @@
-package com.company;
+package Habitaciones;
 
 import java.util.Scanner;
 
 public class SuitePrecidencial extends Suite {
 private String jacuzy;
-    SuitePrecidencial(Scanner leer) {
+    public SuitePrecidencial(Scanner leer) {
         super(leer);
         this.jacuzy = leer.next();
 

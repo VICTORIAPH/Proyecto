@@ -1,4 +1,4 @@
-package com.company;
+package Habitaciones;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Tradicional extends Habitacion {
     private String wc;
     private String regadera;
 
-    Tradicional(Scanner leer) {
+    public Tradicional(Scanner leer) {
         super(leer);
         this.wifi=leer.next();
         this.cable=leer.next();

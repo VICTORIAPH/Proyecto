@@ -1,4 +1,4 @@
-package com.company;
+package Habitaciones;
 
 public class Hotel {
    private String nombre;

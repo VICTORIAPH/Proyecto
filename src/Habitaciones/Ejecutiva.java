@@ -1,15 +1,15 @@
-package com.company;
+package Habitaciones;
 
 import java.util.Scanner;
 
-public class Suite extends Habitacion {
-    protected String cable;
-    protected String serHab;
-    protected String wifi;
-    protected String wc;
-    protected String regadera;
+public class Ejecutiva extends Habitacion {
+    private String cable;
+    private String serHab;
+    private String wifi;
+    private String wc;
+    private String regadera;
 
-    public Suite(Scanner leer) {
+    public Ejecutiva(Scanner leer) {
         super(leer);
         this.wifi=leer.next();
         this.cable=leer.next();
@@ -17,15 +17,12 @@ public class Suite extends Habitacion {
         this.serHab=leer.next();
         this.wc=leer.next();
     }
-
     public String toString() {
-        return "Suite \t" +
+        return "Ejecutiva \t" +
                 " cable " + cable +
                 " serHab " + serHab +
                 " wifi " + wifi +
                 " wc " + wc +
                 " regadera " + regadera ;
     }
-
-
 }

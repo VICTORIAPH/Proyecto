@@ -1,4 +1,4 @@
-package com.company;
+package Habitaciones;
 
 import java.util.Scanner;
 
