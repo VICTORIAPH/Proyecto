@@ -1,16 +1,18 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Usuario {
     private String correo;
     private String pass;
     private String nombre;
 
-    Usuario(String nombre, String correo, String password) {
-        this.nombre = nombre;
-        this.correo = correo;
-        this.nombre = password;
-
+    public Usuario(Scanner leer) {
+        this.nombre = leer.next();
+        this.correo = leer.next();
+        this.pass = leer.next();
     }
+
 
     public String getCorreo() {
         return correo;
