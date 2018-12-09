@@ -2,7 +2,7 @@ package Habitaciones;
 
 import java.util.Scanner;
 
-public class SuitePrecidencial extends Suite {
+public class SuitePrecidencial extends Suite implements Operaciones2 {
 private String jacuzy;
     public SuitePrecidencial(Scanner leer) {
         super(leer);
@@ -17,5 +17,9 @@ private String jacuzy;
                 " wc " + wc +
                 " regadera " + regadera +
                 " jacuzy " + jacuzy;
+    }
+
+    public double calcularPrecio() {
+        return getPrecio()*5;
     }
 }

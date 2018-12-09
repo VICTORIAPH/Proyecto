@@ -2,7 +2,7 @@ package Habitaciones;
 
 import java.util.Scanner;
 
-public class Suite extends Habitacion {
+public class Suite extends Habitacion implements Operaciones2{
     protected String cable;
     protected String serHab;
     protected String wifi;
@@ -28,4 +28,8 @@ public class Suite extends Habitacion {
     }
 
 
+    @Override
+    public double calcularPrecio() {
+        return getPrecio()*3;
+    }
 }

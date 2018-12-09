@@ -2,7 +2,7 @@ package Habitaciones;
 
 import java.util.Scanner;
 
-public class Ejecutiva extends Habitacion {
+public class Ejecutiva extends Habitacion implements Operaciones2 {
     private String cable;
     private String serHab;
     private String wifi;
@@ -24,5 +24,10 @@ public class Ejecutiva extends Habitacion {
                 " wifi " + wifi +
                 " wc " + wc +
                 " regadera " + regadera ;
+    }
+
+    @Override
+    public double calcularPrecio() {
+        return getPrecio()*2;
     }
 }
